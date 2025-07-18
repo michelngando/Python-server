@@ -1,0 +1,7 @@
+
+Install a virtual environmnent tool on the computer to "contain" flask and force python to install within the borders of the environment --> py -m pip install virtualenv
+Use the virtual environmnet tool to create a virtual environmnent --> -m venv venv(the 2nd venv is a variable) --> The venv should be created within the project's folder
+Activate the virtual env (venv) --> venv\Scripts\activate
+It's recommended to use the venv for python's projects
+Install Flask --> py -m pip install flask
+Run the server (similar to running any python file): py filename.py
