@@ -1,10 +1,11 @@
 from flask import Flask, request
 from data import catalog
 import json
+from flask_cors import CORS
 
 
 app = Flask("Server") #Creating the server
-
+CORS(app)
 #Creating the endpoints
 @app.get("/")  #This is called a decorator
 def home():

@@ -56,7 +56,7 @@ catalog = [
         "title" : "Tea",
         "category":"Hot drinks",
         "price": 2.99,
-        "image": "tea.jpeg",
+        "image": "tea.jpg",
         "id": "8"
     },
     {
